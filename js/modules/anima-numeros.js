@@ -50,7 +50,6 @@ export default class AnimaNumeros {
     if (this.numeros.length && this.observerTarget) {
       this.addMutationObserver();
     }
-    this.addMutationObserver();
     return this;
   }
 }
